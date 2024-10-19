@@ -1,0 +1,73 @@
+/* Math Node Container */
+.math-node {
+    display: grid;
+
+    background-color: #f7f9fc;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+.math-node div{
+  margin-top:10px
+}
+  
+  /* Math Node Header */
+  .math-node .header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+
+  /* Input Fields */
+  /* .math-node  input {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .math-node  input:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+   */
+  /* Submit Button */
+  .math-node .submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .math-node .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hover Effect for the Entire Node */
+  .math-node:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .math-node {
+      width: 100%;
+    }
+  }
+  
+
+ 
+  
